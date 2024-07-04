@@ -7,6 +7,17 @@
 
 
         @auth
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="{{ route('products.index') }}">Product</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{ route('products.create') }}">Add Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{ route('cart.index') }}" aria-disabled="true">Cart</a>
+          </li>
+        </ul>
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
               <a class="nav-link btn btn-outline-danger" href="{{route('logout')}}">Logout</a>
@@ -16,7 +27,7 @@
         @else
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="{{route('home')}}">Home</a>
+            <a class="nav-link active" aria-current="page" href="{{route('welcome')}}">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="{{route('login')}}">Login</a>

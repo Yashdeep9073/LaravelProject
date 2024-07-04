@@ -1,10 +1,8 @@
-@extends('layout')
+@extends('../layout/guestLayout')
 
-@section('title','Dashboard')
+@section('title','Welcome')
 
 
 @section('content')
-{{-- @auth
-{{auth()->user()->name}}
-@endauth --}}
+<h1>Hello Welcome to Ecommerce store</h1>
 @endsection

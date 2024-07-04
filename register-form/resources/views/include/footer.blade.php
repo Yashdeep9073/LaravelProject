@@ -1,35 +1,61 @@
-<footer class="bg-dark text-white text-center text-lg-start mt-5">
-    <div class="container p-4">
+<!-- Main content -->
+<div class="container">
+    <!-- Your main content here -->
+</div>
+
+<!-- Footer -->
+<footer class="bg-dark text-white pt-4">
+    <div class="container">
         <div class="row">
-            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-                <h5 class="text-uppercase">Footer Content</h5>
+            <!-- About Us -->
+            <div class="col-md-4">
+                <h5>About Us</h5>
                 <p>
-                    Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
-                    consectetur adipisicing elit.
+                    We are a leading company in providing the best services and products to our customers. Our mission is to ensure customer satisfaction and deliver high-quality solutions.
                 </p>
             </div>
-            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                <h5 class="text-uppercase">Links</h5>
-                <ul class="list-unstyled mb-0">
-                    <li><a href="#!" class="text-white">Link 1</a></li>
-                    <li><a href="#!" class="text-white">Link 2</a></li>
-                    <li><a href="#!" class="text-white">Link 3</a></li>
-                    <li><a href="#!" class="text-white">Link 4</a></li>
+            <!-- Quick Links -->
+            <div class="col-md-4">
+                <h5>Quick Links</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-white">Home</a></li>
+                    <li><a href="{{ route('products.index') }}" class="text-white">Products</a></li>
+                    <li><a href="#" class="text-white">About Us</a></li>
+                    <li><a href="#" class="text-white">Contact Us</a></li>
                 </ul>
             </div>
-            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                <h5 class="text-uppercase">Links</h5>
-                <ul class="list-unstyled mb-0">
-                    <li><a href="#!" class="text-white">Link 1</a></li>
-                    <li><a href="#!" class="text-white">Link 2</a></li>
-                    <li><a href="#!" class="text-white">Link 3</a></li>
-                    <li><a href="#!" class="text-white">Link 4</a></li>
+            <!-- Contact Us -->
+            <div class="col-md-4">
+                <h5>Contact Us</h5>
+                <ul class="list-unstyled">
+                    <li><a href="tel:+1234567890" class="text-white"><i class="fa fa-phone"></i> +1 234 567 890</a></li>
+                    <li><a href="mailto:info@example.com" class="text-white"><i class="fa fa-envelope"></i> info@example.com</a></li>
+                    <li>
+                        <a href="#" class="text-white"><i class="fa fa-map-marker"></i> 1234 Street Name, City, Country</a>
+                    </li>
                 </ul>
             </div>
         </div>
-    </div>
-    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-        © 2024 Company Name:
-        <a class="text-white" href="https://yourwebsite.com/">yourwebsite.com</a>
+        <div class="row mt-3">
+            <div class="col-md-12 text-center">
+                <!-- Social Media Icons -->
+                <a href="#" class="text-white mr-3"><i class="fa fa-facebook"></i></a>
+                <a href="#" class="text-white mr-3"><i class="fa fa-twitter"></i></a>
+                <a href="#" class="text-white mr-3"><i class="fa fa-instagram"></i></a>
+                <a href="#" class="text-white mr-3"><i class="fa fa-linkedin"></i></a>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-md-12 text-center">
+                <p>&copy; 2024 Your Company. All Rights Reserved.</p>
+            </div>
+        </div>
     </div>
 </footer>
+
+<!-- Font Awesome -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js"></script>
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
